@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "netflix";
+  src: url("f796c86c8c0ccc230618e691cd22c611.woff2") format("woff2"),
+    url("f796c86c8c0ccc230618e691cd22c611.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: ".";
+  src: url("d524d88e2be44ffd6c0220a860275140.woff2") format("woff2"),
+    url("d524d88e2be44ffd6c0220a860275140.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
