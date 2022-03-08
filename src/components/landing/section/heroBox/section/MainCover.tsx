@@ -22,36 +22,36 @@ function MainCover() {
     setEmailEroorStatus(validationEmail);
   };
   return (
-    <div className="pb-[200px] mt-[149px] w-full flex flex-col items-center">
-      <div className="text-[64px] text-white flex flex-col items-center font-semibold leading-tight">
+    <div className="pb-[200px] sm:mt-[149px] mt-[80px] w-full flex flex-col items-center">
+      <div className="2xl:text-[64px] md:text-[50px] sm:text-[36px] text-[24px] text-white flex flex-col items-center font-semibold leading-tight">
         <span>Unlimited films, TV </span> <span>programmes and more.</span>
       </div>
-      <div className="mt-[16px] w-full text-[26px] text-white flex justify-center">
+      <div className="mt-[16px] w-full md:text-[26px] sm:text-[18px] text-[16px] text-white flex justify-center">
         Watch anywhere. Cancel at any time.
       </div>
 
       <div className="w-full flex flex-col items-center">
-        <div className="mt-[24px] w-full text-white flex justify-center text-[18px]">
+        <div className="mt-[24px] lg:w-full w-10/12 lg:text-left text-center text-white flex justify-center sm:text-[18px] text-[16px]">
           Ready to watch? Enter your email to create or restart your membership.
         </div>
-        <div className="mt-[10px] w-[746px] h-[70px] flex flex-row rounded-[3px]">
+        <div className="mt-[10px] 2xl:w-[746px] lg:w-[646px] w-10/12 lg:h-[70px] flex lg:flex-row flex-col lg:gap-0 gap-4 items-center rounded-[3px]">
           <input
             value={email}
             onChange={handleEmailOnchange}
             type="text"
-            className={`w-[500px] h-full px-[10px] outline-none rounded-tl-[3px] ${
+            className={`2xl:w-[500px] sm:w-[450px] w-10/12 lg:h-full h-[50px] px-[10px] outline-none rounded-tl-[3px] ${
               emailErrorStatus ? "" : "border-b-[3px] border-[#ffa00a]"
             }`}
             placeholder="Email address"
           />
-          <div className="w-[246px] h-full text-white text-[30px] flex flex-row justify-center items-center gap-4 bg-[#e50914] rounded-tr-[3px]">
+          <div className="2xl:w-[246px] lg:w-[196px] lg:px-0 px-[10px] lg:py-0 py-[10px] h-full text-white lg:text-[30px] text-[18px] flex flex-row justify-center items-center gap- bg-[#e50914]  rounded-[3px] lg:rounded-tr-[3px]">
             <span>Get Started</span>
             <Chevron_right_icon />
           </div>
         </div>
         <div className="w-full flex justify-center">
           <div
-            className={`mt-[8px] w-[746px] text-[#ffa00a] text-[14px] font-medium px-[4px] ${
+            className={`mt-[8px] 2xl:w-[746px] lg:w-[646px] w-10/12 text-[#ffa00a] text-[14px] font-medium px-[4px] ${
               emailErrorStatus ? "invisible" : "visible"
             }`}
           >

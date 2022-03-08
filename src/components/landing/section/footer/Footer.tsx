@@ -72,34 +72,34 @@ const footer = [
 function Footer() {
   return (
     <div className="w-full flex flex-col items-center bg-black ">
-      <div className="mt-[50px] w-8/12 text-[#757575]">
+      <div className="mt-[50px] sm:w-8/12 w-11/12 text-[#757575]">
         Questions? Call 0808 196 5391
       </div>
-      <div className="mt-[10px] w-8/12 flex flex-row items-center gap-40 text-[12px]">
-        <div className="flex flex-col items-start text-[#757575] gap-4">
+      <div className="mt-[10px] sm:w-8/12 w-11/12 flex flex-row items-center  sm:text-[12px] text-[8px]">
+        <div className="w-1/4 flex flex-col items-start text-[#757575] gap-4">
           {footer.slice(0, 4).map((item: any) => (
-            <a className="cursor-pointer" key={item.id}>
+            <a href="#" className="cursor-pointer" key={item.id}>
               {item.label}
             </a>
           ))}
         </div>
-        <div className="flex flex-col items-start text-[#757575] gap-4 ">
+        <div className="w-1/4  flex flex-col items-start text-[#757575] gap-4 ">
           {footer.slice(4, 8).map((item: any) => (
-            <a className="cursor-pointer" key={item.id}>
+            <a href="#" className="cursor-pointer" key={item.id}>
               {item.label}
             </a>
           ))}
         </div>
-        <div className="flex flex-col items-start text-[#757575] gap-4">
+        <div className="w-1/4 flex flex-col items-start text-[#757575] gap-4">
           {footer.slice(8, 12).map((item: any) => (
-            <a className="cursor-pointer" key={item.id}>
+            <a href="#" className="cursor-pointer" key={item.id}>
               {item.label}
             </a>
           ))}
         </div>
-        <div className="flex flex-col items-start text-[#757575] gap-4  ">
+        <div className="w-1/4 flex flex-col items-start text-[#757575] gap-4  ">
           {footer.slice(12, 16).map((item: any) => (
-            <a className="cursor-pointer" key={item.id}>
+            <a href="#" className="cursor-pointer" key={item.id}>
               {item.label}
             </a>
           ))}

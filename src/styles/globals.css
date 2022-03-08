@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 @import url("/fonts/stylesheet.css");
+
+#demo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

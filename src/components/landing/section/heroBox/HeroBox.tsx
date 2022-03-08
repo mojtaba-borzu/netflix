@@ -7,7 +7,7 @@ import MainCover from "./section/MainCover";
 
 function HeroBox() {
   return (
-    <div className="relative w-full h-full flex flex-col items-center bg-hero ">
+    <div className="relative w-full h-full flex flex-col items-center bg-hero bg-cover ">
       <div className="absolute w-full h-full bg-black opacity-60"></div>
       <div className="w-full h-full flex flex-col items-center z-10">
         <Header />
